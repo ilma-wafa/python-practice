@@ -1,6 +1,5 @@
-def count_to_ten():
-  # Loop through the numbers from first to last 
-  x = 1
-  while x <= 10:
-    print(x)
-    x = 1
+numbers = [ 4, 6, 2, 7, 1 ]
+
+numbers.sort(reverse = False)
+
+print(numbers)
